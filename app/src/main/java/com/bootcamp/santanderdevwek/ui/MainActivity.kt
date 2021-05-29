@@ -10,7 +10,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.bootcamp.santanderdevwek.R
 import com.bootcamp.santanderdevwek.data.Conta
-import java.lang.RuntimeException
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflate = menuInflater
-        inflate.inflate(R.menu.main_menu, menu)
+        inflate.inflate(R.menu.notification_menu, menu)
         return true
     }
 
